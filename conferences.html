@@ -28,6 +28,32 @@
     <main>
         <h1>Conferences</h1>
         <div class="journal-list">
+            
+            <div class="journal">
+                <div class="journal-header">
+                    <span class="tag">2025</span>
+                    <h2><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/dong-yilu" target="_blank">CoreCrisis: Threat-Guided and Context-Aware Iterative Learning and Fuzzing of 5G Core Networks</a></h2>
+                </div>
+                <p class="authors">Yilu Dong, Tianchang Yang, Abdullah Al Ishtiaq, Syed Md Mukit Rashid, Ali Ranjbar, Kai Tu, Tianwei Wu, Md Sultan Mahmud, and Syed Rafiul Hussain</p>
+                <p class="year">In USENIX Security'25.</p>
+                <button class="abstract-toggle">View Abstract</button>
+                <div class="abstract-content">
+                    <p>
+                        We develop CoreCrisis, a stateful black-box fuzz-testing framework for 5G core network (5GC) implementations. 
+                        Unlike previous stateful security analysis efforts of cellular networks which rely on manually-crafted, 
+                        static test inputs and are limited to identifying only logical errors, CoreCrisis employs a dynamic two-step approach. 
+                        Initially, CoreCrisis builds an initial finite state machine (FSM) representation of the 5GC's implementation using 
+                        only benign (i.e., positive) inputs with its efficient and scalable divide-and-conquer and property-driven equivalence 
+                        checking learning. During fuzzing, it utilizes the learned FSM to target underexplored states and introduces state-aware 
+                        mutations to generate and test attacking (i.e., negative) inputs. Based on the responses observed from the core network, 
+                        CoreCrisis continuously refines the FSM to better guide its exploration and find vulnerabilities. Evaluating CoreCrisis 
+                        on three open-source and one commercial 5GC implementations, we identified 7 categories of deviations from the technical 
+                        specifications and 13 crashing vulnerabilities. These logical and crashing vulnerabilities lead to denial-of-service, 
+                        authentication bypass, and billing fraud.
+                    </p>
+                </div>
+            </div>
+            
             <div class="journal">
                 <div class="journal-header">
                     <span class="tag">2023</span>

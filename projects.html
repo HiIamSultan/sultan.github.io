@@ -51,6 +51,23 @@
 
             <div class="journal">
                 <div class="journal-header">
+                    <h2>High-Speed PCB Channel Design & Signal Integrity Analysis</a></h2>
+                </div>
+                <p class="authors">
+                    This project focuses on the design, simulation, fabrication, and testing of a 4-layer Printed Circuit Board (PCB) channel optimized for high-speed signaling at 500 MHz. The primary objective was to ensure robust signal integrity and power delivery by minimizing signal reflections and power supply noise (PSN) through rigorous impedance matching and decoupling strategies. Utilizing KiCAD for physical layout and Keysight Advanced Design System (ADS) for simulation, the design incorporated microstrip transmission lines tuned to a 50 Ω characteristic impedance to prevent mismatch losses. To accurately predict the behavior of the power delivery network (PDN), both one-dimensional (1D) transmission line models and two-dimensional (2D) planar grid models were employed, allowing for a detailed assessment of plane resonance and impedance characteristics across the frequency band.
+                </p>
+                <p class="authors">
+                    The hardware implementation featured a custom 4-layer stack-up with dedicated internal power and ground planes, fabricated using a dielectric with a relative permittivity of 4.5. To mitigate return path discontinuities (RPD) and suppress PSN, 0.1 µF decoupling capacitors were strategically placed near the driver IC vias. Validation was conducted using an Agilent DCA-X 86100D wideband oscilloscope and an Agilent 81133A pattern generator, exciting the channel with a 500 MHz Pseudo Random Bit Stream (PRBS). The measurement results confirmed the effectiveness of the design, yielding a measured eye width of approximately 1.945 ns and a low RMS jitter of 9.15 ps. The comparative analysis between simulation and measurement demonstrated a strong correlation, highlighting the critical role of decoupling capacitors in improving the signal-to-noise ratio (SNR) and eye height in high-speed digital interconnects.
+                </p>
+                <div class="social-links">
+                    <a href="https://doi.org/10.13140/RG.2.2.36733.22244" target="_blank">
+                        <img src="assets/img/researchgate.png" alt="ResearchGate" class="icon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="journal">
+                <div class="journal-header">
                     <h2>Radar-Based Soccer Ball Goal Line Detection System</a></h2>
                 </div>
                 <p class="authors">
